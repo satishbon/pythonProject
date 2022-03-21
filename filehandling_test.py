@@ -1,0 +1,6 @@
+f=open("C:\\Users\\test.txt","r")
+print(f.read())
+f1=open("testpython","w")
+f1.write("testing program")
+f2=open("testpython","r")
+print("writing program output", f2.read())
